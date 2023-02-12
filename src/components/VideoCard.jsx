@@ -4,12 +4,17 @@ import { CheckCircle } from "@mui/icons-material";
 import { demoThumbnailUrl, demoVideoUrl, demoVideoTitle, demoChannelUrl, demoChannelTitle } from "../utils/constants";
 
 const VideoCard = ({ video: { id: { videoId }, snippet } }) => {
-  console.log('videoId->', videoId);
-  console.log('snippet->', snippet);
+ 
   return (
-    <div>
-      Video Card
-    </div>
+    <Card>
+      <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>
+        <CardMedia 
+        image={snippet?.thumbnails?.high?.url}
+        alt={snippet?.title}
+        sx={{ width: 358, height: 180}}
+        />
+      </Link>
+    </Card>
   )
 }
 
