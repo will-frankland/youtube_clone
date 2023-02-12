@@ -4,10 +4,11 @@ import { Box } from '@mui/material';
 import { Videos, ChannelCard } from './';
 
 const ChannelDetail = () => {
+  const { id } = useParams();
   return (
-    <div>
-      Channel Detail
-    </div>
+    <Box>
+       {id}
+    </Box>
   )
 }
 
