@@ -3,7 +3,6 @@ import { Stack, Box } from "@mui/material";
 import { VideoCard, ChannelCard } from './'
 
 const Videos = ({ videos }) => {
-  // console.log('videos->', videos)
   return (
     <Stack
       direction="row"
