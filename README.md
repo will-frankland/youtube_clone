@@ -26,11 +26,10 @@ The app has been deployed to Netlify and can be viewed here:
 
 ## Screenshots
 
-!["Screenshot of Video Homepage"]()
-!["Screenshot of Orders Page"]()
-!["Screenshot of Colour-Mapping Chart"]()
-!["Screenshot of Settings"]()
-!["Screenshot of Dark Mode"]()
+!["Screenshot of Homepage"](https://github.com/will-frankland/youtube_clone/blob/main/docs/homepage.png?raw=true)
+!["Screenshot of Channel with Card Showing"](https://github.com/will-frankland/youtube_clone/blob/main/docs/channel-card.png?raw=true)
+!["Screenshot of Search for 'music'"](https://github.com/will-frankland/youtube_clone/blob/main/docs/search-function.png?raw=true)
+
 
 ## Dependencies
 
