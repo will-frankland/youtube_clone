@@ -15,6 +15,8 @@ I utilized the JSMastery tutorial to learn more about API calls, useState, useEf
 
 The app has been deployed to Netlify and can be viewed here:
 
+https://wfmedia-ytclone.netlify.app
+
 
 ## Tech Stack
 
