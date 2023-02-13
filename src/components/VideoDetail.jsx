@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import ReactPlayer from "react-player";
 import { Typography, Box, Stack } from "@mui/material";
-import { CheckCircle } from "@mui/icons-material";
+import { Check, CheckCircle } from "@mui/icons-material";
 
 import { Video } from "./";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
@@ -39,10 +39,16 @@ const VideoDetail = () => {
             </Typography>
             <Stack direction='row' justifyContent='space-between' sx={{ color: '#fff'}} py={1} px={2}>
               <Link to={`/channel/${channelId}`}>
-                <Typography>
+                <Typography variant={{ sm: 'subtitle1', md: 'h6' }} color='#fff'>
                   {channelId}
+                  <CheckCircle sx={{ fontSize: '12px', color: 'gray', ml: '5px' }} />
                 </Typography>
               </Link>
+              <Stack>
+                <Typography variant="body1" sx={{ opacity: 0.7 }}>
+                  {parseInt(viewCount).toLocaleString()} views
+                </Typography>
+              </Stack>
             </Stack>
           </Box>
         </Box>
