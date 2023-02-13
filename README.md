@@ -28,7 +28,7 @@ The app has been deployed to Netlify and can be viewed here:
 
 !["Screenshot of Homepage"](https://github.com/will-frankland/youtube_clone/blob/main/docs/homepage.png?raw=true)
 !["Screenshot of Channel with Card Showing"](https://github.com/will-frankland/youtube_clone/blob/main/docs/channel-card.png?raw=true)
-!["Screenshot of Search for 'music'"](https://github.com/will-frankland/youtube_clone/blob/main/docs/search-function.png?raw=true)
+!["Screenshot of Search for 'music'"](https://github.com/will-frankland/youtube_clone/blob/main/docs/search.png?raw=true)
 
 
 ## Dependencies
